@@ -6840,4 +6840,103 @@ h2 {
   margin-top: 6.25rem;
 }
 
+.about {
+  padding: 7.5rem 5rem;
+  color: #222222;
+  text-align: center;
+  font-size: 0;
+}
+.about-description {
+  font-family: "AmbleLight";
+  font-size: 1.375rem;
+  margin: 5rem 0 5rem 0;
+}
+.about-list {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.about-item {
+  position: relative;
+  width: 16.875rem;
+  height: 22.5rem;
+  overflow: hidden;
+}
+.about-item-ico {
+  position: absolute;
+  right: 18px;
+  top: -100%;
+  transition: 0.3s;
+}
+.about-item-context {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: 0.2s;
+}
+.about-item-title {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0;
+}
+.about-item-description {
+  font-family: "AmbleBold";
+  font-size: 1.125rem;
+  color: #fff;
+  margin: 1.125rem 0 1.6875rem 0;
+}
+.about-item:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.48);
+  border: 4px solid #000;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: 0.2s;
+}
+.about-item:hover .about-item-ico {
+  top: 18px;
+}
+.about-item:hover .about-item-context {
+  opacity: 1;
+}
+.about-item:hover:before {
+  opacity: 1;
+}
+.about-item:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  color: #222222;
+  font-size: 1.5rem;
+  transition: 1;
+  z-index: 10;
+}
+.about-item:last-child .separator {
+  background-color: #222222;
+}
+.about-item:last-child .hiring-btn {
+  position: relative;
+  z-index: 10;
+  color: #222222;
+  font-family: "AmbleBold";
+  text-decoration: none;
+  padding: 1.25rem 3.4375rem;
+  border: 3px solid #000;
+  margin-top: 2.5rem;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+
 /*# sourceMappingURL=main.css.map */
