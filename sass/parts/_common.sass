@@ -3,8 +3,11 @@
 	width: rem(86px)
 	height: 2px
 	background-color: $mainColorLight
-.separator.dark
-	background-color: $mainColor
+	&.dark
+		background-color: $mainColor
+	&.small
+		width: rem(48px)
+		background-color: $separatorSmall
 h2
 	margin: 0 0 rem(74px) 0
 	font-size: rem(30px)

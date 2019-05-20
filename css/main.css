@@ -15,6 +15,10 @@
   font-weight: 700;
 }
 @font-face {
+  font-family: "SlimJoe";
+  src: url("../fonts/BigJohn/SlimJoe.otf") format("opentype");
+}
+@font-face {
   font-family: "BigJohn";
   src: url("../fonts/BigJohn/BIGJOHN.otf") format("opentype");
 }
@@ -6607,9 +6611,12 @@ readers do not read off random characters that represent icons */
   height: 2px;
   background-color: #fff;
 }
-
 .separator.dark {
   background-color: #222222;
+}
+.separator.small {
+  width: 3rem;
+  background-color: #d87843;
 }
 
 h2 {
@@ -6713,6 +6720,107 @@ h2 {
 .button:hover {
   background-color: #fff;
   color: #222222;
+}
+
+.portfolio {
+  padding: 7.5rem 0 5rem 0;
+  color: #222222;
+  text-align: center;
+}
+.portfolio-title-list {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: inline-block;
+  margin-top: 5rem;
+  width: 100%;
+  font-size: 0;
+}
+.portfolio-title-item {
+  display: inline-block;
+  margin-right: 2.1875rem;
+  text-transform: uppercase;
+  font-family: "SlimJoe";
+  font-weight: 700;
+  font-size: 1.125rem;
+  cursor: pointer;
+}
+.portfolio-title-item:last-child {
+  margin-right: 0;
+}
+.portfolio-title-item.is-active {
+  font-family: "BigJohn", sans-serif;
+}
+.portfolio-list {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-top: 5.4375rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.portfolio-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 23.125rem;
+  height: 26.25rem;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 0 1.25rem 0;
+}
+.portfolio-item-context {
+  position: relative;
+  opacity: 0;
+  transition: 0.2s;
+}
+.portfolio-item-title {
+  font-family: "BigJohn", sans-serif;
+  font-size: 1.125rem;
+  margin: 0 0 1.875rem 0;
+}
+.portfolio-item-description {
+  font-size: 1.5rem;
+  margin: 0 0 1.875rem 0;
+}
+.portfolio-item:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 8px solid #000;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: 0.2s;
+}
+.portfolio-item:hover .portfolio-item-context {
+  opacity: 1;
+}
+.portfolio-item:hover:before {
+  opacity: 1;
+}
+.portfolio-btn {
+  display: inline-block;
+  padding: 1.25rem 6rem;
+  margin: 5rem 0 0 0;
+  color: #222222;
+  text-decoration: none;
+  font-family: "AmbleBold";
+  font-size: 1.5rem;
+  border: 3px solid #222222;
+  transition: 0.2s;
+}
+.portfolio-btn:hover {
+  color: #fff;
+  background-color: #222222;
 }
 
 /*# sourceMappingURL=main.css.map */
