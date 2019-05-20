@@ -6823,4 +6823,21 @@ h2 {
   background-color: #222222;
 }
 
+.clients {
+  padding: 7.5rem 0 8.75rem 0;
+  color: #222222;
+  text-align: center;
+  background-color: #f4f4f4;
+  font-size: 0;
+}
+.clients-list {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6.25rem;
+}
+
 /*# sourceMappingURL=main.css.map */
