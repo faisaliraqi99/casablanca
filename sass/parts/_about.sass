@@ -75,7 +75,11 @@
 				font-family: $fontBold
 				text-decoration: none
 				padding: rem(20px) rem(55px)
-				border: 3px solid $dark
+				border: 3px solid $mainColor
 				margin-top: rem(40px)
-				background-color: #fff
+				background-color: $mainColorLight
 				box-sizing: border-box
+				transition: .2s
+				&:hover
+					background-color: $mainColor
+					color: $mainColorLight

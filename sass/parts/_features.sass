@@ -1,0 +1,40 @@
+.features
+	padding: rem(120px) 0 rem(62px) 0
+	color: $mainColor
+	text-align: center
+	font-size: 0
+	&-description
+		font-family: $fontLight
+		font-size: rem(22px)
+		max-width: rem(770px)
+		margin: rem(78px) auto 0
+		line-height: rem(36px)
+	&-list
+		+noList
+		display: flex
+		justify-content: space-between
+		align-items: flex-end
+	&-item
+		color: $mainColor
+		max-width: rem(370px)
+		margin-top: rem(106px)
+		&-title
+			font-size: rem(24px)
+			margin: rem(42px) 0 rem(42px) 0
+		&-description
+			font-size: rem(18px)
+			margin: 0
+.dots
+	+noList
+	margin-top: rem(75px)
+	&-item
+		display: inline-block
+		width: 12px
+		height: 12px
+		margin-right: rem(13px)
+		background-color: $dotNonActive
+		border-radius: 50%
+		&:last-child
+			margin-right: 0
+		&.active
+			background-color: $dotActive
