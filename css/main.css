@@ -7002,4 +7002,95 @@ h2 {
   background-color: #d87843;
 }
 
+.contact {
+  position: relative;
+  padding: 7.5rem 0 7.5rem 0;
+  background-color: #e4e4e4;
+  color: #222222;
+}
+.contact:before {
+  content: "";
+  position: absolute;
+  width: 38%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #f2f2f2;
+}
+.contact .container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-info {
+  font-size: 1.375rem;
+  font-family: "AmbleLight";
+}
+.contact-title {
+  margin: 0 0 2.75rem 0;
+  font-size: 1.5rem;
+}
+.contact-street-one, .contact-street-two, .contact-number {
+  font-style: italic;
+  margin: 0 0 1.875rem 0;
+}
+.contact-name {
+  margin: 0;
+}
+.contact-form {
+  position: relative;
+  right: 0;
+  max-width: 55%;
+  width: 100%;
+}
+.contact-form input {
+  border: none;
+  padding: 1rem 1.125rem;
+  outline: none;
+  border-bottom: 2px solid #afafaf;
+  font-family: "Amble";
+  font-size: 1.125rem;
+  font-style: italic;
+  background-color: transparent;
+}
+.contact-inputs {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 5.625rem;
+}
+.contact-input {
+  width: 40%;
+}
+.contact-submit {
+  display: block;
+  padding: 1.25rem 3.75rem;
+  background-color: transparent;
+  border: 3px solid #222222;
+  margin: 2.5rem 0 0 auto;
+  font-family: "AmbleBold";
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.contact-message {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.icon-list {
+  font-size: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 13.75rem;
+  margin: 2.375rem 0 0 0;
+  font-size: 0;
+}
+.icon-item > i {
+  font-size: 1.5rem;
+  color: #222222;
+}
+
 /*# sourceMappingURL=main.css.map */

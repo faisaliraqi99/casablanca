@@ -1,0 +1,77 @@
+.contact
+	position: relative
+	padding: rem(120px) 0 rem(120px) 0
+	background-color: $bgContactForm
+	color: $mainColor
+	&:before
+		content: ''
+		position: absolute
+		width: 38%
+		height: 100%
+		top: 0
+		left: 0
+		background-color: $bgContactInfo
+	.container
+		position: relative
+		display: flex
+		justify-content: space-between
+	&-info
+		font-size: rem(22px)
+		font-family: $fontLight
+	&-title
+		margin: 0 0 rem(44px) 0
+		font-size: rem(24px)
+	&-street-one,&-street-two,&-number
+		font-style: italic
+		margin: 0 0 rem(30px) 0
+	&-name
+		margin: 0
+	&-form
+		position: relative
+		right: 0
+		max-width: 55%
+		width: 100%
+		input
+			border: none
+			padding: rem(16px) rem(18px)
+			outline: none
+			border-bottom: 2px solid #afafaf
+			font-family: $font
+			font-size: rem(18px)
+			font-style: italic
+			background-color: transparent
+	&-inputs
+		display: flex
+		width: 100%
+		justify-content: space-between
+		margin-bottom: rem(90px)
+	&-input
+		width: 40%
+	&-submit
+		display: block
+		padding: rem(20px) rem(60px)
+		background-color: transparent
+		border: 3px solid $mainColor
+		margin: rem(40px) 0 0 auto
+		font-family: $fontBold
+		font-size: rem(24px)
+		box-sizing: border-box
+		cursor: pointer
+
+	&-message
+		display: flex
+		width: 100%
+		box-sizing: border-box
+
+.icon
+	&-list
+		font-size: 0
+		display: flex
+		align-items: center
+		justify-content: space-between
+		max-width: rem(220px)
+		margin: rem(38px) 0 0 0
+		font-size: 0
+	&-item > i
+		font-size: rem(24px)
+		color: $mainColor
