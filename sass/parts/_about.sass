@@ -11,11 +11,15 @@
 		+noList
 		display: flex
 		justify-content: space-between
+		+tablet
+			flex-wrap: wrap
 	&-item
 		position: relative
 		width: rem(270px)
 		height: rem(360px)
 		overflow: hidden
+		+tablet
+			margin-bottom: 3rem
 		&-ico
 			position: absolute
 			right: 18px

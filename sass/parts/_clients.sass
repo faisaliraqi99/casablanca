@@ -9,3 +9,13 @@
 		display: flex
 		justify-content: space-between
 		margin-top: rem(100px)
+		+tablet
+			padding: 0 rem(30px)
+			flex-direction: column
+			justify-content: center
+			align-items: center
+	&-item
+		+tablet
+			margin-bottom: 3rem
+		&:last-child
+			margin: 0

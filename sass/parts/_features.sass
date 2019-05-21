@@ -3,6 +3,9 @@
 	color: $mainColor
 	text-align: center
 	font-size: 0
+	.container
+		+tablet
+			padding: 0 rem(30px)
 	&-description
 		font-family: $fontLight
 		font-size: rem(22px)
@@ -14,6 +17,9 @@
 		display: flex
 		justify-content: space-between
 		align-items: flex-end
+		+tablet
+			flex-wrap: wrap
+			justify-content: center
 	&-item
 		color: $mainColor
 		max-width: rem(370px)

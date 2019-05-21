@@ -6693,6 +6693,11 @@ h2 {
   text-align: center;
   font-size: 0;
 }
+@media screen and (max-width: 830px) {
+  .introduction {
+    padding: 7.5rem 1.875rem;
+  }
+}
 .introduction-description {
   margin: 4.6875rem auto 0 auto;
   max-width: 48.125rem;
@@ -6704,6 +6709,11 @@ h2 {
 .btn-block {
   padding: 12.5rem 0;
   text-align: center;
+}
+@media screen and (max-width: 550px) {
+  .btn-block {
+    padding: 12.5rem 1.875rem;
+  }
 }
 
 .button {
@@ -6721,11 +6731,19 @@ h2 {
   background-color: #fff;
   color: #222222;
 }
+@media screen and (max-width: 550px) {
+  .button {
+    padding: 2.25rem 4.375rem;
+  }
+}
 
 .portfolio {
   padding: 7.5rem 0 5rem 0;
   color: #222222;
   text-align: center;
+}
+.portfolio .container {
+  padding: 0 0.625rem;
 }
 .portfolio-title-list {
   display: inline-block;
@@ -6746,6 +6764,12 @@ h2 {
   font-size: 1.125rem;
   cursor: pointer;
 }
+@media screen and (max-width: 550px) {
+  .portfolio-title-item {
+    display: block;
+    margin: 0 0 1rem 0;
+  }
+}
 .portfolio-title-item:last-child {
   margin-right: 0;
 }
@@ -6761,6 +6785,16 @@ h2 {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+@media screen and (max-width: 830px) {
+  .portfolio-list {
+    padding: 0 0.625rem;
+  }
+}
+@media screen and (max-width: 550px) {
+  .portfolio-list {
+    justify-content: center;
+  }
 }
 .portfolio-item {
   position: relative;
@@ -6839,6 +6873,22 @@ h2 {
   justify-content: space-between;
   margin-top: 6.25rem;
 }
+@media screen and (max-width: 830px) {
+  .clients-list {
+    padding: 0 1.875rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 830px) {
+  .clients-item {
+    margin-bottom: 3rem;
+  }
+}
+.clients-item:last-child {
+  margin: 0;
+}
 
 .about {
   padding: 7.5rem 5rem;
@@ -6859,11 +6909,21 @@ h2 {
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 830px) {
+  .about-list {
+    flex-wrap: wrap;
+  }
+}
 .about-item {
   position: relative;
   width: 16.875rem;
   height: 22.5rem;
   overflow: hidden;
+}
+@media screen and (max-width: 830px) {
+  .about-item {
+    margin-bottom: 3rem;
+  }
 }
 .about-item-ico {
   position: absolute;
@@ -6950,6 +7010,11 @@ h2 {
   text-align: center;
   font-size: 0;
 }
+@media screen and (max-width: 830px) {
+  .features .container {
+    padding: 0 1.875rem;
+  }
+}
 .features-description {
   font-family: "AmbleLight";
   font-size: 1.375rem;
@@ -6965,6 +7030,12 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+@media screen and (max-width: 830px) {
+  .features-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 .features-item {
   color: #222222;
@@ -7017,14 +7088,36 @@ h2 {
   left: 0;
   background-color: #f2f2f2;
 }
+@media screen and (max-width: 550px) {
+  .contact:before {
+    display: none;
+  }
+}
 .contact .container {
   position: relative;
   display: flex;
   justify-content: space-between;
 }
+@media screen and (max-width: 830px) {
+  .contact .container {
+    padding: 0 1.875rem;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 550px) {
+  .contact .container {
+    flex-direction: column;
+  }
+}
 .contact-info {
   font-size: 1.375rem;
   font-family: "AmbleLight";
+}
+@media screen and (max-width: 550px) {
+  .contact-info {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
 }
 .contact-title {
   margin: 0 0 2.75rem 0;
@@ -7042,6 +7135,11 @@ h2 {
   right: 0;
   max-width: 55%;
   width: 100%;
+}
+@media screen and (max-width: 550px) {
+  .contact-form {
+    max-width: 100%;
+  }
 }
 .contact-form input {
   border: none;
@@ -7088,6 +7186,11 @@ h2 {
   margin: 2.375rem 0 0 0;
   font-size: 0;
 }
+@media screen and (max-width: 550px) {
+  .icon-list {
+    max-width: 100%;
+  }
+}
 .icon-item > i {
   font-size: 1.5rem;
   color: #222222;
@@ -7098,8 +7201,18 @@ h2 {
   background-color: #222222;
   text-align: center;
 }
+@media screen and (max-width: 550px) {
+  .footer {
+    padding: 6.25rem 1.25rem;
+  }
+}
 .footer-copyright {
   margin-top: 4.25rem;
+}
+@media screen and (max-width: 550px) {
+  .footer img {
+    max-width: 100%;
+  }
 }
 
 .highlited {
