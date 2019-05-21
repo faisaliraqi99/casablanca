@@ -7093,4 +7093,18 @@ h2 {
   color: #222222;
 }
 
+.footer {
+  padding: 6.25rem 0 6.25rem 0;
+  background-color: #222222;
+  text-align: center;
+}
+.footer-copyright {
+  margin-top: 4.25rem;
+}
+
+.highlited {
+  color: #d87843;
+  font-family: "AmbleBold";
+}
+
 /*# sourceMappingURL=main.css.map */
